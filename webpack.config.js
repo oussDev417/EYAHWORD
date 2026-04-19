@@ -22,6 +22,7 @@ module.exports = async (env, options) => {
     output: {
       path: path.resolve(__dirname, "dist"),
       filename: "[name].bundle.js",
+      publicPath: dev ? "/" : "/EYAHWORD/",
       clean: true,
     },
     resolve: {
@@ -56,7 +57,10 @@ module.exports = async (env, options) => {
         chunks: ["commands"],
       }),
       new CopyWebpackPlugin({
-        patterns: [{ from: "assets", to: "assets" }],
+        patterns: [
+          { from: "assets", to: "assets" },
+          { from: "manifest.xml", to: "manifest.xml" },
+        ],
       }),
     ],
     devServer: {
