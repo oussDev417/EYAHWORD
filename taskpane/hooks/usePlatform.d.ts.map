@@ -1,0 +1,1 @@
+{"version":3,"file":"usePlatform.d.ts","sourceRoot":"","sources":["../../../src/taskpane/hooks/usePlatform.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,QAAQ,EAAqC,MAAM,4BAA4B,CAAC;AAEzF,MAAM,WAAW,iBAAiB;IAChC,QAAQ,EAAE,QAAQ,CAAC;IACnB,SAAS,EAAE,OAAO,CAAC;IACnB,aAAa,EAAE,OAAO,CAAC;CACxB;AAED,wBAAgB,WAAW,IAAI,iBAAiB,CAY/C"}

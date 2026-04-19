@@ -1,0 +1,1 @@
+{"version":3,"file":"SettingsContext.d.ts","sourceRoot":"","sources":["../../../src/taskpane/context/SettingsContext.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAoC,MAAM,OAAO,CAAC;AACzD,OAAO,EAAe,iBAAiB,EAAE,MAAM,sBAAsB,CAAC;AAItE,eAAO,MAAM,gBAAgB,EAAE,KAAK,CAAC,EAAE,CAAC;IAAE,QAAQ,EAAE,KAAK,CAAC,SAAS,CAAA;CAAE,CAQpE,CAAC;AAEF,wBAAgB,kBAAkB,IAAI,iBAAiB,CAMtD"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"pageSetupFormatter.d.ts","sourceRoot":"","sources":["../../src/engine/pageSetupFormatter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,kBAAkB,CAAC;AAG9C,MAAM,WAAW,eAAe;IAC9B,OAAO,EAAE,OAAO,CAAC;IACjB,OAAO,CAAC,EAAE,MAAM,CAAC;CAClB;AAED,wBAAsB,cAAc,CAClC,OAAO,EAAE,IAAI,CAAC,cAAc,EAC5B,IAAI,EAAE,UAAU,GACf,OAAO,CAAC,eAAe,CAAC,CAmC1B"}

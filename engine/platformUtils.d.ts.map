@@ -1,0 +1,1 @@
+{"version":3,"file":"platformUtils.d.ts","sourceRoot":"","sources":["../../src/engine/platformUtils.ts"],"names":[],"mappings":"AAEA,MAAM,MAAM,QAAQ,GAAG,SAAS,GAAG,KAAK,GAAG,SAAS,CAAC;AAErD,wBAAgB,cAAc,IAAI,QAAQ,CAYzC;AAED,wBAAgB,iBAAiB,IAAI,OAAO,CAE3C;AAED,wBAAgB,kBAAkB,CAAC,cAAc,EAAE,MAAM,EAAE,OAAO,EAAE,MAAM,GAAG,OAAO,CAMnF"}

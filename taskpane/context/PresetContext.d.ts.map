@@ -1,0 +1,1 @@
+{"version":3,"file":"PresetContext.d.ts","sourceRoot":"","sources":["../../../src/taskpane/context/PresetContext.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAoC,MAAM,OAAO,CAAC;AACzD,OAAO,EAAc,gBAAgB,EAAE,MAAM,qBAAqB,CAAC;AAInE,eAAO,MAAM,cAAc,EAAE,KAAK,CAAC,EAAE,CAAC;IAAE,QAAQ,EAAE,KAAK,CAAC,SAAS,CAAA;CAAE,CAQlE,CAAC;AAEF,wBAAgB,gBAAgB,IAAI,gBAAgB,CAMnD"}
