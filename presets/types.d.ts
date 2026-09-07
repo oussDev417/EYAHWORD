@@ -16,11 +16,17 @@ export interface HeadingPreset {
     fontName: string;
     fontSize: number;
     bold: boolean;
+    italic: boolean;
     color: string;
+    /** Empty string means no highlight. */
+    highlightColor: string;
     spaceBefore: number;
     spaceAfter: number;
     alignment: "left" | "center" | "right" | "justified";
 }
+export type HeadingKey = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+export declare const HEADING_KEYS: HeadingKey[];
+export type HeadingSet = Record<HeadingKey, HeadingPreset>;
 export interface PagePreset {
     topMargin: number;
     bottomMargin: number;
@@ -56,11 +62,7 @@ export interface FormattingPreset {
     isBuiltIn: boolean;
     body: FontPreset;
     paragraph: ParagraphPreset;
-    headings: {
-        h1: HeadingPreset;
-        h2: HeadingPreset;
-        h3: HeadingPreset;
-    };
+    headings: HeadingSet;
     bullet: BulletPreset;
     caption: CaptionPreset;
     page: PagePreset;

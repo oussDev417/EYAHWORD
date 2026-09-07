@@ -1,0 +1,1 @@
+{"version":3,"file":"tocFormatter.d.ts","sourceRoot":"","sources":["../../src/engine/tocFormatter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,sBAAsB,CAAC;AA0DjD,MAAM,WAAW,SAAS;IACxB,OAAO,EAAE,OAAO,CAAC;IACjB,aAAa,EAAE,MAAM,CAAC;IACtB,OAAO,EAAE,MAAM,CAAC;CACjB;AAwBD,wBAAsB,SAAS,CAAC,MAAM,EAAE,SAAS,GAAG,OAAO,CAAC,SAAS,CAAC,CAmBrE"}

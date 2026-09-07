@@ -11,6 +11,7 @@ export interface TableCellPreset {
     shadingColor: string;
     spaceBefore: number;
     spaceAfter: number;
+    firstLineIndent: number;
 }
 export interface TableBulletPreset {
     fontName: string;
