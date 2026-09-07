@@ -1,1 +1,1 @@
-{"version":3,"file":"SettingsPanel.d.ts","sourceRoot":"","sources":["../../../src/taskpane/components/SettingsPanel.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAmB,MAAM,OAAO,CAAC;AAgDxC,eAAO,MAAM,aAAa,EAAE,KAAK,CAAC,EAkGjC,CAAC"}
+{"version":3,"file":"SettingsPanel.d.ts","sourceRoot":"","sources":["../../../src/taskpane/components/SettingsPanel.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAmB,MAAM,OAAO,CAAC;AAsDxC,eAAO,MAAM,aAAa,EAAE,KAAK,CAAC,EAkGjC,CAAC"}

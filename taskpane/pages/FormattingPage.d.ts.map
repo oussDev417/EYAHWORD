@@ -1,1 +1,1 @@
-{"version":3,"file":"FormattingPage.d.ts","sourceRoot":"","sources":["../../../src/taskpane/pages/FormattingPage.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAwB1B,eAAO,MAAM,cAAc,EAAE,KAAK,CAAC,EAmDlC,CAAC"}
+{"version":3,"file":"FormattingPage.d.ts","sourceRoot":"","sources":["../../../src/taskpane/pages/FormattingPage.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AA0B1B,eAAO,MAAM,cAAc,EAAE,KAAK,CAAC,EA0ClC,CAAC"}
