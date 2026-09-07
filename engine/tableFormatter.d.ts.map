@@ -1,0 +1,1 @@
+{"version":3,"file":"tableFormatter.d.ts","sourceRoot":"","sources":["../../src/engine/tableFormatter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAsC,WAAW,EAAE,MAAM,uBAAuB,CAAC;AAkExF,MAAM,WAAW,iBAAiB;IAChC,OAAO,EAAE,OAAO,CAAC;IACjB,eAAe,EAAE,MAAM,CAAC;IACxB,KAAK,CAAC,EAAE,MAAM,CAAC;CAChB;AAED,wBAAsB,gBAAgB,CAAC,MAAM,EAAE,WAAW,GAAG,OAAO,CAAC,iBAAiB,CAAC,CAgEtF"}
