@@ -198,3 +198,13 @@ MIT
 <p align="center">
   Fait avec React, Fluent UI et l'API Office.js
 </p>
+
+Option B — Commande automatique (recommandée)
+
+npx office-addin-debugging start manifest.dev.xml desktop
+
+Cette commande démarre le serveur dev, sideloade automatiquement et ouvre Word avec l'add‑in chargé. Pour arrêter :
+
+npx office-addin-debugging stop manifest.dev.xml
+
+Note : le script npm start du package.json utilise manifest.xml (prod). Utilise directement la commande ci‑dessus avec manifest.dev.xml, ou modifie le script.

@@ -1,5 +1,6 @@
 export const STORAGE_KEYS = {
   CUSTOM_PRESETS: "eyahword_custom_presets",
+  CUSTOM_TABLE_PRESETS: "eyahword_custom_table_presets",
   SETTINGS: "eyahword_settings",
 } as const;
 

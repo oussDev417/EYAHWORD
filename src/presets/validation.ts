@@ -39,9 +39,36 @@ export function validatePreset(preset: Partial<FormattingPreset>): ValidationErr
     }
   }
 
+  if (preset.bullet) {
+    if (!preset.bullet.fontName || preset.bullet.fontName.trim().length === 0) {
+      errors.push({ field: "bullet.fontName", message: "La police des puces est requise." });
+    }
+    if (preset.bullet.fontSize < 6 || preset.bullet.fontSize > 72) {
+      errors.push({ field: "bullet.fontSize", message: "La taille des puces doit être entre 6 et 72pt." });
+    }
+  }
+
+  if (preset.caption) {
+    if (!preset.caption.fontName || preset.caption.fontName.trim().length === 0) {
+      errors.push({ field: "caption.fontName", message: "La police des légendes est requise." });
+    }
+    if (preset.caption.fontSize < 6 || preset.caption.fontSize > 72) {
+      errors.push({ field: "caption.fontSize", message: "La taille des légendes doit être entre 6 et 72pt." });
+    }
+  }
+
   return errors;
 }
 
 export function isValidPreset(preset: Partial<FormattingPreset>): preset is FormattingPreset {
-  return validatePreset(preset).length === 0 && !!preset.id && !!preset.body && !!preset.paragraph && !!preset.headings && !!preset.page;
+  return (
+    validatePreset(preset).length === 0 &&
+    !!preset.id &&
+    !!preset.body &&
+    !!preset.paragraph &&
+    !!preset.headings &&
+    !!preset.bullet &&
+    !!preset.caption &&
+    !!preset.page
+  );
 }

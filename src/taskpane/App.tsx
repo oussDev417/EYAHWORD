@@ -12,10 +12,12 @@ import {
   EditRegular,
   BrainCircuitRegular,
   SettingsRegular,
+  TableRegular,
 } from "@fluentui/react-icons";
 import { Header } from "./components/Header";
 import { FormattingPage } from "./pages/FormattingPage";
 import { CustomPresetsPage } from "./pages/CustomPresetsPage";
+import { TablesPage } from "./pages/TablesPage";
 import { AIFeaturesPage } from "./pages/AIFeaturesPage";
 import { SettingsPage } from "./pages/SettingsPage";
 import { PresetProvider } from "./context/PresetContext";
@@ -38,7 +40,7 @@ const useStyles = makeStyles({
   },
 });
 
-type TabId = "format" | "custom" | "ai" | "settings";
+type TabId = "format" | "custom" | "tables" | "ai" | "settings";
 
 export const App: React.FC = () => {
   const styles = useStyles();
@@ -62,6 +64,9 @@ export const App: React.FC = () => {
               <Tab value="custom" icon={<EditRegular />}>
                 Custom
               </Tab>
+              <Tab value="tables" icon={<TableRegular />}>
+                Tableaux
+              </Tab>
               <Tab value="ai" icon={<BrainCircuitRegular />}>
                 IA
               </Tab>
@@ -72,6 +77,7 @@ export const App: React.FC = () => {
             <div className={styles.content}>
               {selectedTab === "format" && <FormattingPage />}
               {selectedTab === "custom" && <CustomPresetsPage />}
+              {selectedTab === "tables" && <TablesPage />}
               {selectedTab === "ai" && <AIFeaturesPage />}
               {selectedTab === "settings" && <SettingsPage />}
             </div>
