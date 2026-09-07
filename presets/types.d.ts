@@ -27,6 +27,28 @@ export interface PagePreset {
     leftMargin: number;
     rightMargin: number;
 }
+export interface BulletPreset {
+    fontName: string;
+    fontSize: number;
+    color: string;
+    bold: boolean;
+    italic: boolean;
+    alignment: "left" | "center" | "right" | "justified";
+    lineSpacing: number;
+    spaceBefore: number;
+    spaceAfter: number;
+    leftIndent: number;
+}
+export interface CaptionPreset {
+    fontName: string;
+    fontSize: number;
+    color: string;
+    bold: boolean;
+    italic: boolean;
+    alignment: "left" | "center" | "right" | "justified";
+    spaceBefore: number;
+    spaceAfter: number;
+}
 export interface FormattingPreset {
     id: string;
     name: string;
@@ -39,6 +61,8 @@ export interface FormattingPreset {
         h2: HeadingPreset;
         h3: HeadingPreset;
     };
+    bullet: BulletPreset;
+    caption: CaptionPreset;
     page: PagePreset;
 }
 //# sourceMappingURL=types.d.ts.map

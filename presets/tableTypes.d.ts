@@ -9,6 +9,18 @@ export interface TableCellPreset {
     horizontalAlignment: TableAlignH;
     verticalAlignment: TableAlignV;
     shadingColor: string;
+    spaceBefore: number;
+    spaceAfter: number;
+}
+export interface TableBulletPreset {
+    fontName: string;
+    fontSize: number;
+    color: string;
+    bold: boolean;
+    italic: boolean;
+    spaceBefore: number;
+    spaceAfter: number;
+    leftIndent: number;
 }
 export type TableBorderStyle = "none" | "single" | "double" | "dashed" | "dotted" | "thick";
 export interface TableBorderPreset {
@@ -30,5 +42,6 @@ export interface TablePreset {
         outside: TableBorderPreset;
         inside: TableBorderPreset;
     };
+    cellBullets: TableBulletPreset | null;
 }
 //# sourceMappingURL=tableTypes.d.ts.map
